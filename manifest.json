@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "generated_at": "2026-09-14T05:58:59Z",
+  "installer": {
+    "latest_version": "0.1.0",
+    "min_supported_version": "0.1.0",
+    "update_url": ""
+  },
+  "codex": {
+    "recommended": {
+      "app_version": "26.908.40834",
+      "msix_version": "26.908.4834.0",
+      "min_app_version_for_deepseek": "26.700.0",
+      "max_tested_version": "26.908.4834.0",
+      "max_untested_delta": "major",
+      "package_family": "OpenAI.Codex_2p2nqsd0c76g0",
+      "package_identity": "OpenAI.Codex",
+      "store_product_id": "9PLM9XGG6VKS",
+      "publisher_cn": "CN=50BDFD77-8903-4850-9FFE-6E8522F64D5B",
+      "platform_min_version": "10.0.19041.0",
+      "min_os_build": 19041,
+      "assets": {
+        "x64": {
+          "filename": "OpenAI.Codex_26.908.4834.0_x64__2p2nqsd0c76g0.Msix",
+          "sha256": "ae01e44b60f3c42fada0cf7deb220104bb8e9111ee79cda16bd57ce7e59c72b0",
+          "size": 774918112,
+          "sources": [
+            { "kind": "store_fe3", "priority": 0, "label": "微软官方服务器" },
+            { "kind": "github_release", "priority": 2, "repo": "Wangnov/codex-app-mirror", "tag": "codex-app-26.908.40834", "proxies": [ "https://v4.gh-proxy.org/", "https://gh-proxy.org/", "" ], "label": "GitHub 镜像" },
+            { "kind": "url", "priority": 9, "url": "https://codexapp.agentsmirror.com/latest/win-x64", "connect_timeout_seconds": 10, "label": "备用下载服务器" }
+          ]
+        },
+        "arm64": null
+      }
+    }
+  },
+  "backends": [
+    {
+      "id": "deepseek",
+      "label": "DeepSeek 官方",
+      "third_party": false,
+      "default": true,
+      "enabled": true,
+      "config_template_version": 3,
+      "base_url": "https://api.deepseek.com/",
+      "wire_api": "responses",
+      "models_json_url": null,
+      "models_json_sha256": "bce20f679495809f4fa6e48672b6dcbab84b6adff5251890b6e6a21eddb9c12f",
+      "default_model": "deepseek-flash",
+      "key_check_endpoint": "https://api.deepseek.com/models",
+      "balance_endpoint": "https://api.deepseek.com/user/balance",
+      "key_pattern": "^sk-[A-Za-z0-9]{20,}$",
+      "signup_url": "https://platform.deepseek.com/api_keys",
+      "topup_url": "https://platform.deepseek.com/top_up",
+      "config_toml_template": "builtin:config.deepseek.toml"
+    }
+  ],
+  "manual_sources": [],
+  "support": { "url": "", "qr_png_url": "" },
+  "telemetry": { "enabled": false, "endpoint": "" },
+  "rollout_percent": 100,
+  "signature": "xvieM8jKNSyNDTzQTfaAJ46hqQ+8DA7AWZaaJJNbcNhQCf+Z780Q/watrx/tM4kKUTNhQXQtw4vWbigNlVbfCw=="
+}
