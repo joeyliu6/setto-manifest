@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-14T05:58:59Z",
+  "generated_at": "2026-09-14T06:57:51Z",
   "installer": {
     "latest_version": "0.1.0",
     "min_supported_version": "0.1.0",
@@ -56,8 +56,8 @@
     }
   ],
   "manual_sources": [],
-  "support": { "url": "", "qr_png_url": "" },
+  "support": { "url": "", "qr_png_url": "", "homepage_url": "https://github.com/joeyliu6/setto-manifest", "demo_video_url": "", "scan_report_url": "" },
   "telemetry": { "enabled": false, "endpoint": "" },
   "rollout_percent": 100,
-  "signature": "xvieM8jKNSyNDTzQTfaAJ46hqQ+8DA7AWZaaJJNbcNhQCf+Z780Q/watrx/tM4kKUTNhQXQtw4vWbigNlVbfCw=="
+  "signature": "6Cb1jgjEI7iIZj/JoSAzDXF0QWKkBbvvBvuc5L8jzFhdWVbvPKmEKtQ2muSvDGgzRkqeTXr6U5uvdIZgKVjGCw=="
 }
