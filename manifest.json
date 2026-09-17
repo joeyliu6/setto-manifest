@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-17T09:16:30Z",
+  "generated_at": "2026-09-17T16:02:09Z",
   "installer": {
     "latest_version": "0.1.0",
     "min_supported_version": "0.1.0",
@@ -56,8 +56,9 @@
     }
   ],
   "manual_sources": [],
-  "support": { "url": "", "qr_png_url": "", "homepage_url": "https://github.com/joeyliu6/setto-manifest", "demo_video_url": "", "scan_report_url": "" },
+  "support": { "url": "", "qr_png_url": "", "homepage_url": "https://github.com/joeyliu6/setto-manifest", "scan_report_url": "" },
+  "promo": { "link": "Codex 装好了，然后呢？完整教程：上手、进阶、避坑", "title": "Codex 教程", "text": "扫码关注公众号，回复「Codex」获取", "qr_png_url": "" },
   "telemetry": { "enabled": false, "endpoint": "" },
   "rollout_percent": 100,
-  "signature": "dr43IoDELACdyEzebyAnZ1iXQcg+a3fQdDMtyoA1LcDmCCKrlHnemPivS6klhYCpiyVPkxKoFmM0NjQb9uO5Aw=="
+  "signature": "oXAo1hqkVGfJUegWCyDud+fO9ykqoHcTAq7ToTfjwxS476yuLax+42MpoxVVLxTmeBCQjMbfh15WP4PK1aPVBw=="
 }
