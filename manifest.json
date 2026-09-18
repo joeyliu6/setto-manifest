@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-17T16:02:09Z",
+  "generated_at": "2026-09-18T08:39:40Z",
   "installer": {
     "latest_version": "0.1.0",
     "min_supported_version": "0.1.0",
@@ -9,7 +9,7 @@
   "codex": {
     "recommended": {
       "app_version": "26.908.70816",
-      "msix_version": "26.911.7940.0",
+      "msix_version": "26.915.3509.0",
       "min_app_version_for_deepseek": "26.700.0",
       "max_tested_version": "26.908.9136.0",
       "max_untested_delta": "major",
@@ -21,12 +21,12 @@
       "min_os_build": 19041,
       "assets": {
         "x64": {
-          "filename": "OpenAI.Codex_26.911.7940.0_x64__2p2nqsd0c76g0.Msix",
-          "sha256": "dd4f6efc9f824cebe79c3dda173db6fb5ac2e37f7106556640f58cb81b73b5d4",
-          "size": 789408971,
+          "filename": "OpenAI.Codex_26.915.3509.0_x64__2p2nqsd0c76g0.Msix",
+          "sha256": "3ef364eec7bde303c17af12481ea19724e162e771d6baa589aee37e64324c80c",
+          "size": 824604631,
           "sources": [
             { "kind": "store_fe3", "priority": 0, "label": "微软官方服务器" },
-            { "kind": "github_release", "priority": 2, "repo": "Wangnov/codex-app-mirror", "tag": "codex-app-26.911.61220", "proxies": [ "https://gh-proxy.org/", "" ], "label": "GitHub 镜像" },
+            { "kind": "github_release", "priority": 2, "repo": "Wangnov/codex-app-mirror", "tag": "codex-app-26.915.31029", "proxies": [ "https://gh-proxy.org/", "" ], "label": "GitHub 镜像" },
             { "kind": "url", "priority": 9, "url": "https://codexapp.agentsmirror.com/latest/win-x64", "connect_timeout_seconds": 10, "threads": 2, "label": "备用下载服务器" }
           ]
         },
@@ -60,5 +60,5 @@
   "promo": { "link": "Codex 装好了，然后呢？完整教程：上手、进阶、避坑", "title": "Codex 教程", "text": "扫码关注公众号，回复「Codex」获取", "qr_png_url": "" },
   "telemetry": { "enabled": false, "endpoint": "" },
   "rollout_percent": 100,
-  "signature": "oXAo1hqkVGfJUegWCyDud+fO9ykqoHcTAq7ToTfjwxS476yuLax+42MpoxVVLxTmeBCQjMbfh15WP4PK1aPVBw=="
+  "signature": "uodZ65JjIPwiDhGiZrCzzdKJpOHrA2ccImMvfRMjPrbrpF0hFr+cC3evKlXNLIWJ5KfPqCfOgD9AdZwr3yM1Bw=="
 }
