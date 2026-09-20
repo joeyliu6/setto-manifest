@@ -1,10 +1,13 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-18T18:47:36Z",
+  "generated_at": "2026-09-20T03:07:39Z",
   "installer": {
     "latest_version": "0.1.0",
-    "min_supported_version": "0.1.0",
-    "update_url": ""
+    "downloads": [
+      { "label": "Gitee", "url": "https://gitee.com/joeyliu6/setto-manifest/releases/download/v0.1.0/Setto-0.1.0.zip" },
+      { "label": "GitHub", "url": "https://github.com/joeyliu6/setto-manifest/releases/download/v0.1.0/Setto-0.1.0.zip" },
+      { "label": "百度网盘", "url": "https://pan.baidu.com/s/1-efmcp4iKZCItG7vAmLF4w?pwd=keuf", "code": "keuf" }
+    ]
   },
   "codex": {
     "recommended": {
@@ -44,7 +47,7 @@
       "config_template_version": 3,
       "base_url": "https://api.deepseek.com/",
       "wire_api": "responses",
-      "models_json_url": null,
+      "models_json_url": "https://gitee.com/joeyliu6/setto-manifest/raw/main/models.deepseek.json",
       "models_json_sha256": "bce20f679495809f4fa6e48672b6dcbab84b6adff5251890b6e6a21eddb9c12f",
       "default_model": "deepseek-flash",
       "key_check_endpoint": "https://api.deepseek.com/models",
@@ -55,10 +58,12 @@
       "config_toml_template": "builtin:config.deepseek.toml"
     }
   ],
-  "manual_sources": [],
+  "manual_sources": [
+    { "label": "百度网盘", "url": "https://pan.baidu.com/s/1xsi7icGymY8WCOgOxUL9-w?pwd=hpyi", "code": "hpyi" }
+  ],
   "support": { "url": "", "qr_png_url": "", "homepage_url": "https://github.com/joeyliu6/setto-manifest", "scan_report_url": "" },
-  "promo": { "link": "Codex 装好了，然后呢？完整教程：上手、进阶、避坑", "title": "Codex 教程", "text": "扫码关注公众号，回复「Codex」获取", "qr_png_url": "" },
+  "promo": { "link": "Codex 装好了，然后呢？完整教程：上手、进阶、避坑", "panel_link": "Codex 最新完整教程：上手、进阶、避坑", "title": "Codex 教程", "text": "扫码关注公众号，回复「Codex」获取", "qr_png_url": "" },
   "telemetry": { "enabled": false, "endpoint": "" },
   "rollout_percent": 100,
-  "signature": "tRrR4F/0FgQBhX8WaP5jGc+Y8uO0EyHqZ0+Yj3mLj3TYk24rExPszZWeK02JJad89+vobnIt3xMzEY8HxGLuCw=="
+  "signature": "j40kO6KpZpLQIFfgmdjbzHLdpbuWLFqKCHeuqYGY8mpS3X5WCIgG92T5hX4HMKPfy5oCqdRpG2Eq3DgsX6FyAg=="
 }
