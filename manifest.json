@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-20T03:07:39Z",
+  "generated_at": "2026-09-20T03:48:48Z",
   "installer": {
     "latest_version": "0.1.0",
     "downloads": [
@@ -65,5 +65,5 @@
   "promo": { "link": "Codex 装好了，然后呢？完整教程：上手、进阶、避坑", "panel_link": "Codex 最新完整教程：上手、进阶、避坑", "title": "Codex 教程", "text": "扫码关注公众号，回复「Codex」获取", "qr_png_url": "" },
   "telemetry": { "enabled": false, "endpoint": "" },
   "rollout_percent": 100,
-  "signature": "j40kO6KpZpLQIFfgmdjbzHLdpbuWLFqKCHeuqYGY8mpS3X5WCIgG92T5hX4HMKPfy5oCqdRpG2Eq3DgsX6FyAg=="
+  "signature": "rXnRKCSou+Y37zFXVxfqdXF9LNDQERXco9MB3nEM7t6Y2PeDwIJKDK03zv4g8jbAVrkvJMCIoiWmXvywS5UkCw=="
 }
