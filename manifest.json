@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-24T08:55:43Z",
+  "generated_at": "2026-09-25T02:09:33Z",
   "installer": {
     "latest_version": "0.1.0",
     "downloads": [
@@ -14,7 +14,7 @@
       "app_version": "26.917.71314",
       "msix_version": "26.917.9434.0",
       "min_app_version_for_deepseek": "26.700.0",
-      "max_tested_version": "26.908.9136.0",
+      "max_tested_version": "26.917.9434.0",
       "max_untested_delta": "major",
       "package_family": "OpenAI.Codex_2p2nqsd0c76g0",
       "package_identity": "OpenAI.Codex",
@@ -65,5 +65,5 @@
   "promo": { "link": "Codex 装好了，然后呢？完整教程：上手、进阶、避坑", "panel_link": "Codex 最新完整教程：上手、进阶、避坑", "title": "Codex 教程", "text": "扫码关注公众号 Joeyspace\n回复「Codex」获取教程", "qr_png_url": "" },
   "telemetry": { "enabled": false, "endpoint": "" },
   "rollout_percent": 100,
-  "signature": "LBXSvn1OOXNoNvbmC0E9KjvIF3DqPPlqGkruk0oYZ1WizSstFc47gc9WQrlF49KAXgXTUs0AG3DDNhtue2khBA=="
+  "signature": "0KCdegJDAsyL2HzVNNZRpPku2s41U6OkbxBof+/KakGbRA4/oIkNmE4VTmkoqo0O+QoN7j6lIAl2Bnbp6vVHBw=="
 }
