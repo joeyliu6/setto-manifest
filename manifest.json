@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-19T09:43:36Z",
+  "generated_at": "2026-11-20T09:30:44Z",
   "installer": {
     "latest_version": "0.1.0",
     "downloads": [
@@ -11,8 +11,8 @@
   },
   "codex": {
     "recommended": {
-      "app_version": "26.1111.71704",
-      "msix_version": "26.1111.9664.0",
+      "app_version": "26.1117.31558",
+      "msix_version": "26.1117.3838.0",
       "min_app_version_for_deepseek": "26.700.0",
       "max_tested_version": "26.924.2738.0",
       "max_untested_delta": "major",
@@ -25,13 +25,13 @@
       "needs_admin_account": true,
       "assets": {
         "x64": {
-          "filename": "OpenAI.Codex_26.1111.9664.0_x64__2p2nqsd0c76g0.Msix",
-          "sha256": "5a00348bc3a6c7f17cb3b457a51c3934a4dc1c2843e3d735b9355d3add9c7f43",
-          "size": 1057886060,
+          "filename": "OpenAI.Codex_26.1117.3838.0_x64__2p2nqsd0c76g0.Msix",
+          "sha256": "d22a222119967a330919f121d619460431de6e395f6d514e9bf3a066c0efb89a",
+          "size": 811237227,
           "sources": [
             { "kind": "store_fe3", "priority": 0, "label": "微软官方服务器" },
             { "kind": "url", "priority": 2, "url": "https://codexapp.agentsmirror.com/latest/win-x64", "connect_timeout_seconds": 10, "threads": 2, "label": "备用下载服务器" },
-            { "kind": "github_release", "priority": 9, "repo": "Wangnov/codex-app-mirror", "tag": "codex-app-26.1111.71704", "proxies": [ "https://gh-proxy.org/", "" ], "label": "GitHub 镜像" }
+            { "kind": "github_release", "priority": 9, "repo": "Wangnov/codex-app-mirror", "tag": "codex-app-26.1117.31558", "proxies": [ "https://gh-proxy.org/", "" ], "label": "GitHub 镜像" }
           ]
         },
         "arm64": null
@@ -66,5 +66,5 @@
   "promo": { "link": "Codex 装好了，然后呢？完整教程：上手、进阶、避坑", "panel_link": "Codex 最新完整教程：上手、进阶、避坑", "title": "Codex 教程", "text": "扫码关注公众号 Joeyspace\n回复「Codex」获取教程", "qr_png_url": "" },
   "telemetry": { "enabled": false, "endpoint": "" },
   "rollout_percent": 100,
-  "signature": "16E/BRbpoRGhqOGcMoamvgncckRy2qSvm4qtWHfX8SJCVUq5XBZXU0RoEgaBwZ4b2vHi3nnZtucPKcPgaLQzBA=="
+  "signature": "0jDYe98HmyjQ9+FTtTiajZu5dZvmlzKIeUydm1GmJ/U91V83w2Wl70NWvg2zOJcZziBpTutvajB2TNO7Q/j8Cw=="
 }
